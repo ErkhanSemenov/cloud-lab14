@@ -6,7 +6,7 @@ app.set('view engine', 'pug')
 
 
 app.get("/", async (_req, res) => {
-   res.render('index', {message: "Hello World!"})
+   res.render('index', {message: "Bye World!"})
 });
 
 
